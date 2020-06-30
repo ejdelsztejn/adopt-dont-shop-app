@@ -1,11 +1,15 @@
 class SheltersController < ApplicationController
   def index
-    @shelters = ['Old Dog Haven', 'Leave No Paws Behind', "Blind Cat Rescue"]
+    @shelters = Shelter.all
   end
 
   def new
   end
 
   def create
+  end
+
+  def show
+    @shelter = Shelter.find(params[:id])
   end
 end
