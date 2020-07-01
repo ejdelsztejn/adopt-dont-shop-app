@@ -13,11 +13,9 @@ RSpec.describe "shelters index page", type: :feature do
                               state: 'CO',
                               zip: '80210')
 
-    visit '/shelters'
+    visit '/shelters/'
 
     expect(page).to have_content("#{shelter_1.name}")
-
     expect(page).to have_content("#{shelter_2.name}")
   end
 end
-# 'Leave No Paws Behind', "Blind Cat Rescue"

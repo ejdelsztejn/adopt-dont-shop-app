@@ -13,7 +13,8 @@ RSpec.describe "shelter id page", type: :feature do
                               state: 'CO',
                               zip: '80210')
 
-    visit '/shelters/:name'
+    shelter_1_id = shelter_1[:id]
+    visit "/shelters/#{shelter_1_id}"
 
     expect(page).to have_content("#{shelter_1.name}")
     expect(page).to have_content("#{shelter_1.address}")
