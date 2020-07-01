@@ -200,12 +200,42 @@
           1,
           1,
           1,
+          1,
           null
         ]
       },
       "/Users/jejdelman/turing/module2/projects/adopt_dont_shop_app/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/jejdelman/turing/module2/projects/adopt_dont_shop_app/spec/features/shelters/user_can_delete_a_shelter_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          0,
+          null,
+          0,
+          null,
           null
         ]
       },
@@ -315,7 +345,7 @@
           null,
           null,
           1,
-          4,
+          5,
           null,
           null,
           1,
@@ -335,6 +365,11 @@
           1,
           null,
           1,
+          null,
+          null,
+          1,
+          0,
+          0,
           null,
           null
         ]
@@ -360,6 +395,6 @@
         ]
       }
     },
-    "timestamp": 1593570597
+    "timestamp": 1593604610
   }
 }
