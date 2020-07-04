@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe 'pet update page', type: :feature do
-  it 'can update an existing pet' do
+RSpec.describe 'update pet from index page', type: :feature do
+  it 'can update an existing pet from the index page' do
     shelter = Shelter.create(name: 'Old Dog Haven',
                                address: '166 Main St',
                                city: 'Denver',
@@ -17,7 +17,7 @@ RSpec.describe 'pet update page', type: :feature do
 
     name = 'Margaret'
 
-    visit "/pets/#{pet.id}"
+    visit "/pets/"
     click_on 'Update Pet'
     expect(current_path).to eq("/pets/#{pet.id}/edit")
     fill_in 'Name', with: name
