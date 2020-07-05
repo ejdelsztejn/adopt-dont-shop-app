@@ -4,14 +4,29 @@ h2 {
   font-size: 30px;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 p {
   text-align: left;
-  margin: 40px;
   font-size: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.main {
+  text-align: left;
+  margin: 40px;
+}
+
+.main h3 {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: midnightblue;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
 }
