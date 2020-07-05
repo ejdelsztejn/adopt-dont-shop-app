@@ -23,17 +23,12 @@ class PetsController < ApplicationController
   end
 
   def update
-    pet = Pet.find(params[:id])
-    pet.update({
-      image: params[:pet][:image],
-      name: params[:pet][:name],
-      description: params[:pet][:description],
-      age: params[:pet][:age],
-      sex: params[:pet][:sex],
-      })
-
-    pet.save
-    redirect_to "/pets/#{pet.id}"
+    require "pry"; binding.pry
+    @pet = Pet.find(params[:id])
+    require "pry"; binding.pry
+    @pet.update(pet_params)
+    require "pry"; binding.pry
+    redirect_to "/pets/#{@pet.id}"
   end
 
   def destroy
