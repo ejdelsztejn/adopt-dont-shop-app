@@ -17,8 +17,8 @@ RSpec.describe 'update pet from index page', type: :feature do
 
     name = 'Margaret'
 
-    visit "/pets/"
-    click_on 'Update Pet'
+    visit "/pets"
+    click_link 'Update Pet'
     expect(current_path).to eq("/pets/#{pet.id}/edit")
     fill_in 'Name', with: name
     click_on 'Update Pet'

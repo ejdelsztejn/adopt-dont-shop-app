@@ -16,7 +16,7 @@ RSpec.describe 'shelter delete page', type: :feature do
     shelter_1_id = shelter_1[:id]
     visit "shelters/#{shelter_1_id}"
 
-    click_button('delete')
+    click_on 'Delete Shelter'
 
     visit '/shelters'
 

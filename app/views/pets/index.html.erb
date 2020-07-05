@@ -1,4 +1,5 @@
 <h1>All Pets</h1>
+<h4>Total Number of Pets: <%= @pets.count %></h4>
 
 <% @pets.each do |pet| %>
   <div class="pet">
@@ -10,7 +11,7 @@
     <p>Shelter: <%= pet.shelter.name %></p>
     <p>Adoption Status: <%= "adoptable" if pet.adoptable %></p>
     <ul>
-      <li><%= link_to "Update Pet", "/pets/#{pet.id}"%></li>
+      <li><%= link_to "Update Pet", "/pets/#{pet.id}/edit"%></li>
       <li><%= link_to "Delete Pet", "/pets/#{pet.id}", method: :delete %></li>
     </ul>
   </div>

@@ -1,5 +1,11 @@
 <h1>All Pets in <%= @shelter.name %></h1>
-<p><%= link_to "Create Pet", "/shelters/#{@shelter.id}/pets/new" %></p>
+<nav>
+  <ul>
+    <li><%= link_to "Create Pet", "/shelters/#{@shelter.id}/pets/new" %></li>
+    <li>|</li>
+    <li>Total pets in shelter: <%= @shelter.pets.count %></li>
+  </ul>
+</nav>
 <% @pets.each do |pet| %>
   <div class="pet">
     <img src=<%= pet.image %> alt=<%= pet.name %></img>
@@ -10,7 +16,7 @@
     <p>Shelter: <%= pet.shelter.name %></p>
     <p>Adoption Status: <%= "adoptable" if pet.adoptable %></p>
     <ul>
-      <li><%= link_to "Update Pet", "/pets/#{pet.id}"%></li>
+      <li><%= link_to "Update Pet", "/pets/#{pet.id}/edit"%></li>
       <li><%= link_to "Delete Pet", "/pets/#{pet.id}", method: :delete %></li>
     </ul>
   </div>

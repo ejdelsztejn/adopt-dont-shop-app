@@ -14,8 +14,8 @@ RSpec.describe 'shelter update', type: :feature do
     expect(page).to have_content('33333')
     click_link('Update Shelter')
 
-    fill_in('shelter[zip]', with: '33301')
-    click_button('update_shelter')
+    fill_in('Zip', with: '33301')
+    click_on('Update Shelter')
 
     visit "/shelters/#{shelter_id}"
     expect(page).to have_content('33301')

@@ -5,14 +5,14 @@ RSpec.describe "shelter new page", type: :feature do
 
     visit '/shelters/new'
 
-    fill_in('shelter[name]', with: 'Blind Kitten Rescue')
-    fill_in('shelter[address]', with: '241 Silver St')
-    fill_in('shelter[city]', with: 'Colorado Springs')
-    fill_in('shelter[state]', with: 'CO')
-    fill_in('shelter[zip]', with: '80914')
-    click_button('submit_shelter')
+    fill_in 'Name', with: 'Blind Kitten Rescue'
+    fill_in 'Address', with: '241 Silver St'
+    fill_in 'City', with: 'Colorado Springs'
+    fill_in 'State', with: 'CO'
+    fill_in 'Zip', with: '80914'
+    click_on 'Create Shelter'
 
-    visit '/shelters/'
+    visit '/shelters'
 
     expect(page).to have_content("Blind Kitten Rescue")
   end
