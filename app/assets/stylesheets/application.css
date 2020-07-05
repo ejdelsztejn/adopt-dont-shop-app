@@ -43,3 +43,12 @@ nav li {
   display: inline;
   padding: 5px;
 }
+
+footer {
+  text-align: center;
+  background-color: midnightblue;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+}

@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+
+.pet {
+    display: inline-block;
+    border: 1px solid midnightblue;
+    margin: 10px 10px;
+    overflow: hidden;
+    height: 500px;
+    width: 250px;
+    vertical-align: top;
+}
+
+.pet img {
+  text-align: center;
+}
+
+.pet h3 {
+  text-align: center
+}
+
+.pet p {
+  margin-left: 20px;
+  margin-right: 10px;
+}
