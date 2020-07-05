@@ -242,8 +242,8 @@
           1,
           1,
           null,
-          1,
-          1,
+          0,
+          0,
           null,
           null
         ]
@@ -310,13 +310,13 @@
           null,
           null,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           null,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
           null
         ]
@@ -342,9 +342,9 @@
           null,
           1,
           1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
           null
         ]
@@ -372,13 +372,13 @@
           null,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
           null,
-          1,
-          1,
+          0,
+          0,
           null,
           null
         ]
@@ -406,7 +406,7 @@
           null,
           1,
           1,
-          1,
+          0,
           0,
           0,
           0,
@@ -590,20 +590,27 @@
       },
       "/Users/jejdelman/turing/module2/projects/adopt_dont_shop_app/spec/models/pet_spec.rb": {
         "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
           null
         ]
       },
-      "/Users/jejdelman/turing/module2/projects/adopt_dont_shop_app/spec/models/shelter_spec.rb": {
+      "/Users/jejdelman/turing/module2/projects/adopt_dont_shop_app/app/models/pet.rb": {
         "lines": [
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/jejdelman/turing/module2/projects/adopt_dont_shop_app/app/models/shelter.rb": {
-        "lines": [
+          1,
           1,
           1,
           null
@@ -611,6 +618,33 @@
       },
       "/Users/jejdelman/turing/module2/projects/adopt_dont_shop_app/app/models/application_record.rb": {
         "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/jejdelman/turing/module2/projects/adopt_dont_shop_app/spec/models/shelter_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/jejdelman/turing/module2/projects/adopt_dont_shop_app/app/models/shelter.rb": {
+        "lines": [
+          1,
           1,
           1,
           null
@@ -677,13 +711,6 @@
           null
         ]
       },
-      "/Users/jejdelman/turing/module2/projects/adopt_dont_shop_app/app/models/pet.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
       "/Users/jejdelman/turing/module2/projects/adopt_dont_shop_app/app/controllers/pets_controller.rb": {
         "lines": [
           1,
@@ -696,7 +723,7 @@
           null,
           null,
           1,
-          1,
+          0,
           null,
           null,
           1,
@@ -707,28 +734,28 @@
           null,
           null,
           1,
-          4,
+          1,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
           null,
           null,
           1,
           1,
           1,
-          1,
-          null,
-          null,
-          1,
-          2,
-          2,
-          null,
-          null,
-          1,
-          1,
-          2,
           null,
           null
         ]
       }
     },
-    "timestamp": 1593985879
+    "timestamp": 1593992991
   }
 }
