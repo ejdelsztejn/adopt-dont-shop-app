@@ -24,9 +24,7 @@ class PetsController < ApplicationController
 
   def update
     @pet = Pet.find(params[:id])
-    require "pry"; binding.pry
     @pet.update(pet_params)
-    require "pry"; binding.pry
     redirect_to "/pets/#{@pet.id}"
   end
 
