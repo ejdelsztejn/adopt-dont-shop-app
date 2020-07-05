@@ -23,7 +23,6 @@ class PetsController < ApplicationController
   end
 
   def update
-    require "pry"; binding.pry
     @pet = Pet.find(params[:id])
     require "pry"; binding.pry
     @pet.update(pet_params)
